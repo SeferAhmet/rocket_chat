@@ -1,0 +1,22 @@
+[
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "HEAD",
+            "GET",
+            "PUT",
+            "POST",
+            "DELETE"
+        ],
+        "AllowedOrigins": [
+            "https://10.20.102.105:3000"
+        ],
+        "ExposeHeaders": [
+             "ETag",
+             "x-amz-meta-custom-header",
+             3000
+             ]
+    }
+]
